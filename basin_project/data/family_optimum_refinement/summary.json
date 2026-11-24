@@ -1,0 +1,42 @@
+{
+  "configuration": {
+    "damping": 0.15,
+    "h": 0.4,
+    "energy_end": 4.0,
+    "basin_end": 60.0,
+    "grid_n": 100,
+    "reference_h": 0.005,
+    "same_energy_subset_for_D_and_mismatch": true
+  },
+  "families": [
+    {
+      "family": "generalized-alpha",
+      "D_crossing_rho": 0.4261071226400545,
+      "basin_best_rho": 0.475,
+      "minimum_mismatch": 0.1126984126984127,
+      "crossing_minus_basin_best": -0.048892877359945464
+    },
+    {
+      "family": "HHT",
+      "D_crossing_rho": null,
+      "basin_best_rho": 0.56,
+      "minimum_mismatch": 0.11547619047619048,
+      "crossing_minus_basin_best": null
+    },
+    {
+      "family": "WBZ",
+      "D_crossing_rho": 0.672882752850951,
+      "basin_best_rho": 0.75,
+      "minimum_mismatch": 0.1111111111111111,
+      "crossing_minus_basin_best": -0.077117247149049
+    },
+    {
+      "family": "Newmark",
+      "D_crossing_rho": 0.9568398130438045,
+      "basin_best_rho": 0.95,
+      "minimum_mismatch": 0.0880952380952381,
+      "crossing_minus_basin_best": 0.0068398130438045435
+    }
+  ],
+  "runtime_seconds": 27.046
+}

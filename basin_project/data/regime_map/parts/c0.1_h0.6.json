@@ -1,0 +1,1129 @@
+{
+ "cells": [
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.0,
+   "rho_measured": 0.0,
+   "mismatch": 0.4122,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.31547046543580626,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.05,
+   "rho_measured": 0.05,
+   "mismatch": 0.4092,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.3538536447605526,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.1,
+   "rho_measured": 0.1,
+   "mismatch": 0.381,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4116252163532345,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.15,
+   "rho_measured": 0.15,
+   "mismatch": 0.3812,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4124417444381183,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.2,
+   "rho_measured": 0.2,
+   "mismatch": 0.418,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4097098781398006,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.25,
+   "rho_measured": 0.25,
+   "mismatch": 0.4284,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4412603167238197,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.3,
+   "rho_measured": 0.3,
+   "mismatch": 0.4252,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4891321835434846,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.35,
+   "rho_measured": 0.35,
+   "mismatch": 0.3706,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4900711947616663,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.4,
+   "rho_measured": 0.4,
+   "mismatch": 0.3038,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.45989329367779413,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.45,
+   "rho_measured": 0.45,
+   "mismatch": 0.256,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.47193214438154746,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.5,
+   "rho_measured": 0.5,
+   "mismatch": 0.2598,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5151295894087375,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.55,
+   "rho_measured": 0.55,
+   "mismatch": 0.2884,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5557733166580053,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.6,
+   "rho_measured": 0.6,
+   "mismatch": 0.3136,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5746723999890722,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.65,
+   "rho_measured": 0.65,
+   "mismatch": 0.3194,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5761274821636697,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.7,
+   "rho_measured": 0.7,
+   "mismatch": 0.3204,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5751605566008943,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.75,
+   "rho_measured": 0.75,
+   "mismatch": 0.3254,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5716066252617487,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.8,
+   "rho_measured": 0.8,
+   "mismatch": 0.3288,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.570579656919189,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.85,
+   "rho_measured": 0.85,
+   "mismatch": 0.3328,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5686630958321922,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.9,
+   "rho_measured": 0.9,
+   "mismatch": 0.3334,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5682723279269468,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 0.95,
+   "rho_measured": 0.95,
+   "mismatch": 0.3332,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5674887255350848,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "generalized-alpha",
+   "rho": 1.0,
+   "rho_measured": 1.0,
+   "mismatch": 0.3334,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.56783337926475,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.55,
+   "rho_measured": 0.5499999999999998,
+   "mismatch": 0.262,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5189551960293148,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.6,
+   "rho_measured": 0.5999999999999999,
+   "mismatch": 0.2664,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5214180206398589,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.65,
+   "rho_measured": 0.6499999999999996,
+   "mismatch": 0.2678,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5322144346841908,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.7,
+   "rho_measured": 0.7,
+   "mismatch": 0.2724,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5479762214170052,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.75,
+   "rho_measured": 0.7499999999999997,
+   "mismatch": 0.2902,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5605765043478417,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.8,
+   "rho_measured": 0.8,
+   "mismatch": 0.3046,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5699640761641388,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.85,
+   "rho_measured": 0.8500000000000002,
+   "mismatch": 0.3156,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5756046991371435,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.9,
+   "rho_measured": 0.9000000000000001,
+   "mismatch": 0.3188,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5782940463804213,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 0.95,
+   "rho_measured": 0.9499999999999995,
+   "mismatch": 0.3156,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5741836889485948,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "HHT",
+   "rho": 1.0,
+   "rho_measured": 1.0000000000000002,
+   "mismatch": 0.3334,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.56783337926475,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.05,
+   "rho_measured": 0.050000000000000586,
+   "mismatch": 0.4146,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.329210599909341,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.1,
+   "rho_measured": 0.09999999999999988,
+   "mismatch": 0.3964,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.38011122099150696,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.15,
+   "rho_measured": 0.14999999999999933,
+   "mismatch": 0.3814,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.41086795841601803,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.2,
+   "rho_measured": 0.20000000000000018,
+   "mismatch": 0.3648,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.42011846087673893,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.25,
+   "rho_measured": 0.25000000000000044,
+   "mismatch": 0.395,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.3958654660493549,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.3,
+   "rho_measured": 0.3000000000000002,
+   "mismatch": 0.4148,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.40789115275220295,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.35,
+   "rho_measured": 0.3499999999999999,
+   "mismatch": 0.4244,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.42562534846081007,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.4,
+   "rho_measured": 0.39999999999999997,
+   "mismatch": 0.4288,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.444982247521707,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.45,
+   "rho_measured": 0.4499999999999998,
+   "mismatch": 0.432,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4735838971358109,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.5,
+   "rho_measured": 0.5000000000000001,
+   "mismatch": 0.407,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4984396868682552,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.55,
+   "rho_measured": 0.5500000000000005,
+   "mismatch": 0.3676,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.49041672056300384,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.6,
+   "rho_measured": 0.5999999999999995,
+   "mismatch": 0.322,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.4677016081611178,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.65,
+   "rho_measured": 0.65,
+   "mismatch": 0.2736,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.45576757097998866,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.7,
+   "rho_measured": 0.7000000000000001,
+   "mismatch": 0.2542,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.47564231603437807,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.75,
+   "rho_measured": 0.75,
+   "mismatch": 0.2582,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5113612470155955,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.8,
+   "rho_measured": 0.8,
+   "mismatch": 0.2718,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5490403133741393,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.85,
+   "rho_measured": 0.8499999999999999,
+   "mismatch": 0.3066,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5707199320629901,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.9,
+   "rho_measured": 0.899999999999999,
+   "mismatch": 0.3182,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.576997460868199,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 0.95,
+   "rho_measured": 0.9499999999999997,
+   "mismatch": 0.3126,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5748741369997188,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "WBZ",
+   "rho": 1.0,
+   "rho_measured": 1.0000000000000004,
+   "mismatch": 0.3334,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.56783337926475,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.6,
+   "rho_measured": 0.6000000000000002,
+   "mismatch": 0.3858,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.25618120848985226,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.65,
+   "rho_measured": 0.65,
+   "mismatch": 0.4324,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.2799555640909251,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.7,
+   "rho_measured": 0.7000000000000002,
+   "mismatch": 0.408,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.3652019941890076,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.75,
+   "rho_measured": 0.7500000000000004,
+   "mismatch": 0.3678,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.39887204686559263,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.8,
+   "rho_measured": 0.7999999999999997,
+   "mismatch": 0.408,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.40299102274807225,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.85,
+   "rho_measured": 0.8499999999999999,
+   "mismatch": 0.4706,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.46276090652569574,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.9,
+   "rho_measured": 0.8999999999999999,
+   "mismatch": 0.3596,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.46085934287288743,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 0.95,
+   "rho_measured": 0.9499999999999988,
+   "mismatch": 0.2196,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5314627550977454,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "Newmark",
+   "rho": 1.0,
+   "rho_measured": 1.0000000000000004,
+   "mismatch": 0.3334,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.56783337926475,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "candidate_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "BDF2",
+   "rho": null,
+   "rho_measured": null,
+   "mismatch": 0.3802,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.40158441693483904,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": true
+  },
+  {
+   "c": 0.1,
+   "h": 0.6,
+   "family": "discrete-gradient",
+   "rho": null,
+   "rho_measured": null,
+   "mismatch": 0.1778,
+   "valid": 10000,
+   "excluded": 0,
+   "Sb": 0.5607540066021932,
+   "net_transfer": 0.0,
+   "reference_time_check_changes": 0,
+   "saturated": false
+  }
+ ],
+ "cases": [
+  [
+   "generalized-alpha",
+   0.0
+  ],
+  [
+   "generalized-alpha",
+   0.05
+  ],
+  [
+   "generalized-alpha",
+   0.1
+  ],
+  [
+   "generalized-alpha",
+   0.15
+  ],
+  [
+   "generalized-alpha",
+   0.2
+  ],
+  [
+   "generalized-alpha",
+   0.25
+  ],
+  [
+   "generalized-alpha",
+   0.3
+  ],
+  [
+   "generalized-alpha",
+   0.35
+  ],
+  [
+   "generalized-alpha",
+   0.4
+  ],
+  [
+   "generalized-alpha",
+   0.45
+  ],
+  [
+   "generalized-alpha",
+   0.5
+  ],
+  [
+   "generalized-alpha",
+   0.55
+  ],
+  [
+   "generalized-alpha",
+   0.6
+  ],
+  [
+   "generalized-alpha",
+   0.65
+  ],
+  [
+   "generalized-alpha",
+   0.7
+  ],
+  [
+   "generalized-alpha",
+   0.75
+  ],
+  [
+   "generalized-alpha",
+   0.8
+  ],
+  [
+   "generalized-alpha",
+   0.85
+  ],
+  [
+   "generalized-alpha",
+   0.9
+  ],
+  [
+   "generalized-alpha",
+   0.95
+  ],
+  [
+   "generalized-alpha",
+   1.0
+  ],
+  [
+   "HHT",
+   0.55
+  ],
+  [
+   "HHT",
+   0.6
+  ],
+  [
+   "HHT",
+   0.65
+  ],
+  [
+   "HHT",
+   0.7
+  ],
+  [
+   "HHT",
+   0.75
+  ],
+  [
+   "HHT",
+   0.8
+  ],
+  [
+   "HHT",
+   0.85
+  ],
+  [
+   "HHT",
+   0.9
+  ],
+  [
+   "HHT",
+   0.95
+  ],
+  [
+   "HHT",
+   1.0
+  ],
+  [
+   "WBZ",
+   0.05
+  ],
+  [
+   "WBZ",
+   0.1
+  ],
+  [
+   "WBZ",
+   0.15
+  ],
+  [
+   "WBZ",
+   0.2
+  ],
+  [
+   "WBZ",
+   0.25
+  ],
+  [
+   "WBZ",
+   0.3
+  ],
+  [
+   "WBZ",
+   0.35
+  ],
+  [
+   "WBZ",
+   0.4
+  ],
+  [
+   "WBZ",
+   0.45
+  ],
+  [
+   "WBZ",
+   0.5
+  ],
+  [
+   "WBZ",
+   0.55
+  ],
+  [
+   "WBZ",
+   0.6
+  ],
+  [
+   "WBZ",
+   0.65
+  ],
+  [
+   "WBZ",
+   0.7
+  ],
+  [
+   "WBZ",
+   0.75
+  ],
+  [
+   "WBZ",
+   0.8
+  ],
+  [
+   "WBZ",
+   0.85
+  ],
+  [
+   "WBZ",
+   0.9
+  ],
+  [
+   "WBZ",
+   0.95
+  ],
+  [
+   "WBZ",
+   1.0
+  ],
+  [
+   "Newmark",
+   0.6
+  ],
+  [
+   "Newmark",
+   0.65
+  ],
+  [
+   "Newmark",
+   0.7
+  ],
+  [
+   "Newmark",
+   0.75
+  ],
+  [
+   "Newmark",
+   0.8
+  ],
+  [
+   "Newmark",
+   0.85
+  ],
+  [
+   "Newmark",
+   0.9
+  ],
+  [
+   "Newmark",
+   0.95
+  ],
+  [
+   "Newmark",
+   1.0
+  ],
+  [
+   "BDF2",
+   null
+  ],
+  [
+   "discrete-gradient",
+   null
+  ]
+ ]
+}

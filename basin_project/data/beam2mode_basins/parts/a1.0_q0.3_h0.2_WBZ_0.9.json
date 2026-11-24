@@ -1,0 +1,11 @@
+{
+ "alpha": 1.0,
+ "q20": 0.3,
+ "h": 0.2,
+ "family": "WBZ",
+ "rho": 0.9,
+ "mismatch": 0.05277777777777778,
+ "valid": 3600,
+ "excluded": 0,
+ "newton_failures": 0
+}

@@ -1,0 +1,11 @@
+{
+ "alpha": 3.0,
+ "q20": 0.0,
+ "h": 0.4,
+ "family": "Newmark",
+ "rho": 0.9,
+ "mismatch": 0.45555555555555555,
+ "valid": 3600,
+ "excluded": 0,
+ "newton_failures": 0
+}

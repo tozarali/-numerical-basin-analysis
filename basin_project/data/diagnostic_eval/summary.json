@@ -1,0 +1,39 @@
+{
+  "name": "diagnostic_eval",
+  "status": "exploratory",
+  "configuration": {
+    "source": "data\\regime_map\\parts",
+    "alarm": 0.02,
+    "true_threshold": 0.05
+  },
+  "environment": {
+    "python": "3.12.16",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "git_commit": null
+  },
+  "results": {
+    "two_rho": {
+      "spearman": 0.7615178450635155,
+      "n": 1734,
+      "hit_rate": 0.7643467643467643,
+      "false_alarm_rate": 0.17923497267759564,
+      "alarm": 0.02,
+      "true_threshold": 0.05,
+      "note": "cases share models/ICs; p-values are descriptive only"
+    },
+    "two_h": {
+      "spearman": 0.9765927694199344,
+      "n": 1299,
+      "hit_rate": 0.9975031210986267,
+      "false_alarm_rate": 0.3795180722891566,
+      "alarm": 0.02,
+      "true_threshold": 0.05,
+      "note": "cases share models/ICs; p-values are descriptive only"
+    }
+  },
+  "out_dir": "D:\\OneDrive - Hatay Mustafa Kemal \u00dcniversitesi\\ACME review\\paper2_idea\\basin_project\\data\\diagnostic_eval",
+  "outcome": "completed",
+  "runtime_seconds": 0.919
+}

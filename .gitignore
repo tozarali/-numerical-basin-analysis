@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.npz
+basin_project/data/_runs/
+basin_project/data/*_quick/
+basin_project/data/confirmatory_family_comparison_smoke/

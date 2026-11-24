@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "model": "1d_constrained",
+      "n": 96,
+      "h": 0.2,
+      "rho": 0.4,
+      "mismatch": {
+        "fraction": 0.006727430555555556,
+        "valid": 9216,
+        "excluded": 0
+      }
+    },
+    {
+      "model": "1d_constrained",
+      "n": 96,
+      "h": 0.1,
+      "rho": 0.4,
+      "mismatch": {
+        "fraction": 0.0015190972222222222,
+        "valid": 9216,
+        "excluded": 0
+      }
+    },
+    {
+      "model": "1d_constrained",
+      "n": 96,
+      "h": 0.05,
+      "rho": 0.4,
+      "mismatch": {
+        "fraction": 0.0008680555555555555,
+        "valid": 9216,
+        "excluded": 0
+      }
+    },
+    {
+      "model": "2d_perturbed",
+      "n": 96,
+      "h": 0.2,
+      "rho": 0.4,
+      "mismatch": {
+        "fraction": 0.0078125,
+        "valid": 9216,
+        "excluded": 0
+      }
+    },
+    {
+      "model": "2d_perturbed",
+      "n": 96,
+      "h": 0.1,
+      "rho": 0.4,
+      "mismatch": {
+        "fraction": 0.002387152777777778,
+        "valid": 9216,
+        "excluded": 0
+      }
+    },
+    {
+      "model": "2d_perturbed",
+      "n": 96,
+      "h": 0.05,
+      "rho": 0.4,
+      "mismatch": {
+        "fraction": 0.00043402777777777775,
+        "valid": 9216,
+        "excluded": 0
+      }
+    }
+  ],
+  "runtime_seconds": 13.232
+}

@@ -1,0 +1,314 @@
+{
+  "status": "exploratory_smoke_not_confirmatory",
+  "configuration": {
+    "grid": "24x24 cell centers",
+    "energy_band": "0.6 < E0 < 2",
+    "n_selected": 284,
+    "damping": 0.15,
+    "h": 0.4,
+    "rho_samples": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "proposed_case_counts": {
+      "generalized-alpha": 41,
+      "HHT": 21,
+      "WBZ": 39,
+      "Newmark": 17
+    },
+    "target_n_sobol": 32768
+  },
+  "environment": {
+    "python": "3.12.16",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "conda_prefix": "C:\\Users\\ToZaR\\miniconda3\\envs\\basin-project"
+  },
+  "reference_seconds": {
+    "T4_h005": 0.05983430000014778,
+    "T60_h005": 0.9034005000012257,
+    "T60_h0025": 2.7474022999995213,
+    "T120_h005": 3.024143800001184
+  },
+  "reference_step_check": {
+    "different_labels": 0,
+    "unresolved_a": 0,
+    "unresolved_b": 0
+  },
+  "reference_time_check": {
+    "different_labels": 0,
+    "unresolved_a": 0,
+    "unresolved_b": 0
+  },
+  "candidate_samples": [
+    {
+      "family": "generalized-alpha",
+      "rho": 0.6,
+      "rho_mapping": 0.6,
+      "seconds": {
+        "T4": 0.006115000000136206,
+        "T60": 0.04908620000060182,
+        "T120": 0.07422140000016952
+      },
+      "D_median": 0.9731571859755018,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 34,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "generalized-alpha",
+      "rho": 0.8,
+      "rho_mapping": 0.8,
+      "seconds": {
+        "T4": 0.004479200000787387,
+        "T60": 0.03844120000030671,
+        "T120": 0.0880925000001298
+      },
+      "D_median": 0.9587184833623552,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 40,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "generalized-alpha",
+      "rho": 1.0,
+      "rho_mapping": 1.0,
+      "seconds": {
+        "T4": 0.004257200000211014,
+        "T60": 0.04950970000027155,
+        "T120": 0.09845810000115307
+      },
+      "D_median": 0.9569705898895586,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 40,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "HHT",
+      "rho": 0.6,
+      "rho_mapping": 0.5999999999999999,
+      "seconds": {
+        "T4": 0.0029550999988714466,
+        "T60": 0.05756149999979243,
+        "T120": 0.08681719999913184
+      },
+      "D_median": 0.9837242024480927,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 20,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "HHT",
+      "rho": 0.8,
+      "rho_mapping": 0.7999999999999998,
+      "seconds": {
+        "T4": 0.0048557999998593004,
+        "T60": 0.04548419999991893,
+        "T120": 0.08993769999869983
+      },
+      "D_median": 0.9768276781045837,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 28,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "HHT",
+      "rho": 1.0,
+      "rho_mapping": 1.0,
+      "seconds": {
+        "T4": 0.002885599998990074,
+        "T60": 0.04916209999828425,
+        "T120": 0.09716939999998431
+      },
+      "D_median": 0.9569705898804807,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 40,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "WBZ",
+      "rho": 0.6,
+      "rho_mapping": 0.6000000000000001,
+      "seconds": {
+        "T4": 0.002921200000855606,
+        "T60": 0.04269729999941774,
+        "T120": 0.09423269999933837
+      },
+      "D_median": 1.0090100197611116,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 20,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "WBZ",
+      "rho": 0.8,
+      "rho_mapping": 0.8,
+      "seconds": {
+        "T4": 0.003838700000414974,
+        "T60": 0.05324019999898155,
+        "T120": 0.0906066000006831
+      },
+      "D_median": 0.9840454510984742,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 20,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "WBZ",
+      "rho": 1.0,
+      "rho_mapping": 1.0,
+      "seconds": {
+        "T4": 0.0029223999990790617,
+        "T60": 0.0557451000004221,
+        "T120": 0.08963480000056734
+      },
+      "D_median": 0.9569705898804826,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 40,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "Newmark",
+      "rho": 0.6,
+      "rho_mapping": 0.6000000000000001,
+      "seconds": {
+        "T4": 0.002531000000089989,
+        "T60": 0.046312700000271434,
+        "T120": 0.08642330000111542
+      },
+      "D_median": 1.3349348058528245,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 222,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "Newmark",
+      "rho": 0.8,
+      "rho_mapping": 0.8000000000000003,
+      "seconds": {
+        "T4": 0.005758600000262959,
+        "T60": 0.04526099999930011,
+        "T120": 0.08261639999909676
+      },
+      "D_median": 1.153500879560776,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 144,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    },
+    {
+      "family": "Newmark",
+      "rho": 1.0,
+      "rho_mapping": 1.0,
+      "seconds": {
+        "T4": 0.005621000000246568,
+        "T60": 0.05477149999933317,
+        "T120": 0.08375089999935881
+      },
+      "D_median": 0.9569705898804807,
+      "D_valid": 284,
+      "reference_vs_T60": {
+        "different_labels": 40,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      },
+      "T60_vs_T120": {
+        "different_labels": 0,
+        "unresolved_a": 0,
+        "unresolved_b": 0
+      }
+    }
+  ],
+  "estimated_seconds_linear_scaling_compute_only": 2704.37279272863,
+  "estimate_warning": "Rough linear extrapolation from 24x24; excludes Sobol generation, bootstrap, checkpoints, I/O, memory effects and environment changes. Not a runtime guarantee or a substitute for a full-size benchmark.",
+  "runtime_seconds": 8.496112599999833,
+  "outcome": "completed"
+}

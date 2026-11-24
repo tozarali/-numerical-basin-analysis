@@ -1,0 +1,484 @@
+{
+  "name": "dsep_exploratory",
+  "status": "exploratory",
+  "configuration": {
+    "damping": 0.15,
+    "h": [
+      0.4,
+      0.5,
+      0.6
+    ],
+    "delta": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "seed": null,
+    "rho_ranges": {
+      "generalized-alpha": [
+        0.0,
+        1.0
+      ],
+      "HHT": [
+        0.51,
+        1.0
+      ],
+      "WBZ": [
+        0.05,
+        1.0
+      ],
+      "Newmark": [
+        0.6,
+        1.0
+      ]
+    },
+    "rho_points_per_family": 21,
+    "initial_condition": "x=0, v=+sqrt(2*(E0-Eb))",
+    "cycle": "next positive-direction x=0 crossing after t=0",
+    "matching": "numerical and reference energy at reference event time; shortened final numerical step",
+    "reference": "DOP853 rtol=1e-11 atol=1e-13, checked against 1e-12/1e-14",
+    "horizon": 60,
+    "n_initial_conditions_per_delta": 1
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "git_commit": null
+  },
+  "results": {
+    "reference_events": [
+      {
+        "e0": 0.255,
+        "v0": 0.10000000000000005,
+        "turn_time": 4.306033568008499,
+        "capture_time": 1.6827142819950893,
+        "cycle_time": null,
+        "cycle_status": "no_cycle_captured_below_barrier",
+        "final_energy_balance_residual": 4.1427972163887716e-13,
+        "conservative_half_period": 8.05331692361125,
+        "tight_turn_time_difference": 3.812949955772638e-12,
+        "tight_capture_time_difference": 2.397415599375563e-11,
+        "tight_energy_difference_at_half_period": 3.24462678946702e-14,
+        "delta": 0.02
+      },
+      {
+        "e0": 0.2625,
+        "v0": 0.15811388300841903,
+        "turn_time": 3.8024795043355195,
+        "capture_time": 1.6945394878095787,
+        "cycle_time": null,
+        "cycle_status": "no_cycle_captured_below_barrier",
+        "final_energy_balance_residual": 9.88042980765158e-13,
+        "conservative_half_period": 7.119647089904222,
+        "tight_turn_time_difference": 1.4144241333724494e-12,
+        "tight_capture_time_difference": 6.958877918350481e-12,
+        "tight_energy_difference_at_half_period": 5.143385717332194e-13,
+        "delta": 0.05
+      },
+      {
+        "e0": 0.275,
+        "v0": 0.22360679774997907,
+        "turn_time": 3.416239263983248,
+        "capture_time": 1.7157809862159188,
+        "cycle_time": null,
+        "cycle_status": "no_cycle_captured_below_barrier",
+        "final_energy_balance_residual": 1.009969885501505e-12,
+        "conservative_half_period": 6.4054706271323045,
+        "tight_turn_time_difference": 1.1177725411926076e-12,
+        "tight_capture_time_difference": 3.6364244948572377e-12,
+        "tight_energy_difference_at_half_period": 1.4072354392880015e-12,
+        "delta": 0.1
+      }
+    ],
+    "cases": [
+      {
+        "delta": 0.02,
+        "h": 0.4,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.49603138124753526
+        ],
+        "existing_basin_best_rho": 0.475,
+        "existing_finite_window_D_crossing": 0.4261071226400545
+      },
+      {
+        "delta": 0.02,
+        "h": 0.4,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [],
+        "existing_basin_best_rho": 0.56,
+        "existing_finite_window_D_crossing": null
+      },
+      {
+        "delta": 0.02,
+        "h": 0.4,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.7864568423142545
+        ],
+        "existing_basin_best_rho": 0.75,
+        "existing_finite_window_D_crossing": 0.672882752850951
+      },
+      {
+        "delta": 0.02,
+        "h": 0.4,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.982721362787774
+        ],
+        "existing_basin_best_rho": 0.95,
+        "existing_finite_window_D_crossing": 0.9568398130438045
+      },
+      {
+        "delta": 0.02,
+        "h": 0.5,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.5261624865058357
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.5,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.683217828332608
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.5,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8155176506227697
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.5,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.978308963787498
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.6,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.5414691463087947
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.6,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.7305581265797616
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.6,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8267127223830826
+        ]
+      },
+      {
+        "delta": 0.02,
+        "h": 0.6,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9723751809831445
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.4,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.5353836949837516
+        ],
+        "existing_basin_best_rho": 0.475,
+        "existing_finite_window_D_crossing": 0.4261071226400545
+      },
+      {
+        "delta": 0.05,
+        "h": 0.4,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.7033624594161079
+        ],
+        "existing_basin_best_rho": 0.56,
+        "existing_finite_window_D_crossing": null
+      },
+      {
+        "delta": 0.05,
+        "h": 0.4,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8236825826307143
+        ],
+        "existing_basin_best_rho": 0.75,
+        "existing_finite_window_D_crossing": 0.672882752850951
+      },
+      {
+        "delta": 0.05,
+        "h": 0.4,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9850926749455918
+        ],
+        "existing_basin_best_rho": 0.95,
+        "existing_finite_window_D_crossing": 0.9568398130438045
+      },
+      {
+        "delta": 0.05,
+        "h": 0.5,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.5703545060126194
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.5,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.7973002459243159
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.5,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8563181354382996
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.5,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9820808600929326
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.6,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.6019576928030296
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.6,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8516765717225973
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.6,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8836728179694868
+        ]
+      },
+      {
+        "delta": 0.05,
+        "h": 0.6,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9802991312098366
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.4,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.589896556585171
+        ],
+        "existing_basin_best_rho": 0.475,
+        "existing_finite_window_D_crossing": 0.4261071226400545
+      },
+      {
+        "delta": 0.1,
+        "h": 0.4,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8368796710636175
+        ],
+        "existing_basin_best_rho": 0.56,
+        "existing_finite_window_D_crossing": null
+      },
+      {
+        "delta": 0.1,
+        "h": 0.4,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8792243010186687
+        ],
+        "existing_basin_best_rho": 0.75,
+        "existing_finite_window_D_crossing": 0.672882752850951
+      },
+      {
+        "delta": 0.1,
+        "h": 0.4,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9895761805636905
+        ],
+        "existing_basin_best_rho": 0.95,
+        "existing_finite_window_D_crossing": 0.9568398130438045
+      },
+      {
+        "delta": 0.1,
+        "h": 0.5,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.6313626714055239
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.5,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.8900597229207797
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.5,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9092084768088475
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.5,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9883829205923368
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.6,
+        "family": "generalized-alpha",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.6667194131447081
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.6,
+        "family": "HHT",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9205035229105611
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.6,
+        "family": "WBZ",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9305624323899407
+        ]
+      },
+      {
+        "delta": 0.1,
+        "h": 0.6,
+        "family": "Newmark",
+        "actual_cycle_status": "no_cycle_captured_below_barrier",
+        "first_turn_matched_time_D1_crossings": [],
+        "conservative_half_period_D1_crossings": [
+          0.9878963162958042
+        ]
+      }
+    ],
+    "interpretation": "Only actual_cycle_matched_time is a cycle measure. The other ratios are finite-window exploratory proxies, not D_sep."
+  },
+  "out_dir": "D:\\OneDrive - Hatay Mustafa Kemal \u00dcniversitesi\\ACME review\\paper2_idea\\basin_project\\data\\dsep_exploratory",
+  "outcome": "completed",
+  "runtime_seconds": 72.477
+}

@@ -1,0 +1,31 @@
+{
+  "duration": 20,
+  "grid": "20x20",
+  "horizontal_initial": 0.6,
+  "results": [
+    {
+      "sample_step": 0.1,
+      "RK4_step": 0.005,
+      "absolute_work_over_vertical_damping_median": 0.8316842073642121,
+      "absolute_work_over_vertical_damping_q90": 1.705478174392518,
+      "absolute_net_work_over_vertical_damping_median": 0.2055870968741188,
+      "energy_balance_max_absolute_residual": 0.0010492701923795478,
+      "energy_balance_rms_residual": 0.00021290130299195652,
+      "energy_balance_max_dissipated": 0.5929498263624496,
+      "valid": 400,
+      "excluded": 0
+    },
+    {
+      "sample_step": 0.05,
+      "RK4_step": 0.005,
+      "absolute_work_over_vertical_damping_median": 0.8320692510049414,
+      "absolute_work_over_vertical_damping_q90": 1.7059988022240706,
+      "absolute_net_work_over_vertical_damping_median": 0.20589751654628885,
+      "energy_balance_max_absolute_residual": 0.00026093844476948735,
+      "energy_balance_rms_residual": 5.3050214802916714e-05,
+      "energy_balance_max_dissipated": 0.5929425141585383,
+      "valid": 400,
+      "excluded": 0
+    }
+  ]
+}

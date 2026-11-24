@@ -1,0 +1,9 @@
+{
+ "omega_h": 0.57,
+ "h": 0.023961472523065238,
+ "rho": 0.2,
+ "mismatch": 0.37,
+ "valid": 400,
+ "excluded": 0,
+ "newton_failures": 0
+}

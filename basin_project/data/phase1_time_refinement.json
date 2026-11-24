@@ -1,0 +1,41 @@
+{
+  "grid_n": 48,
+  "damping": 0.15,
+  "end": 80,
+  "rho": 0.4,
+  "steps": [
+    {
+      "h": 0.4,
+      "mismatch": {
+        "fraction": 0.12065972222222222,
+        "valid": 2304,
+        "excluded": 0
+      }
+    },
+    {
+      "h": 0.2,
+      "mismatch": {
+        "fraction": 0.0390625,
+        "valid": 2304,
+        "excluded": 0
+      }
+    },
+    {
+      "h": 0.1,
+      "mismatch": {
+        "fraction": 0.013020833333333334,
+        "valid": 2304,
+        "excluded": 0
+      }
+    },
+    {
+      "h": 0.05,
+      "mismatch": {
+        "fraction": 0.0026041666666666665,
+        "valid": 2304,
+        "excluded": 0
+      }
+    }
+  ],
+  "runtime_seconds": 1.021
+}
