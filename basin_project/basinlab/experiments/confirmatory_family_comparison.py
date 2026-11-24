@@ -22,7 +22,7 @@ from ..reference import rk4
 from ..runmeta import experiment
 from ..sampling import sobol_box
 from ..stats import parabolic_minimum
-from ._common import ROOT, Parts, alpha_state, family_parameters, quick
+from ._common import ROOT, Parts, alpha_state, control_labels, family_parameters, quick
 
 PREREG = ROOT / "protocol" / "PREREG.md"
 DAMPING, H = 0.15, 0.4
@@ -196,20 +196,65 @@ def main():
             ratio[i] = arr["ratio"]
             cell_ok[i] = meta["reliable"]
             cells.append(meta)
+        # Controls (H2): energy-consistent discrete gradient (primary), BDF2 (descriptive).
+        ctrl = {}
+        for cname in ("discrete-gradient", "BDF2"):
+            ck = "ctrl_" + cname
+            if not parts.has(ck):
+                l60 = control_labels(cname, x, v, 60.0, H, DAMPING)
+                l120 = control_labels(cname, x, v, 120.0, H, DAMPING)
+                okc = (ref != 0) & (l60 != 0)
+                m = float(np.mean(ref[okc] != l60[okc])) if okc.any() else None
+                cm = {"control": cname, "mismatch": m, "unresolved": int((l60 == 0).sum()),
+                      "time_check_changes": int((l60 != l120).sum())}
+                cm["reliable"] = (cm["unresolved"] == 0 and cm["time_check_changes"] == 0
+                                  and m is not None and m < 0.30)
+                parts.save(ck, cm, lab60=l60)
+                print(f"control {cname}: mismatch={m}", flush=True)
+            cm, ca = parts.load(ck)
+            ctrl[cname] = {"meta": cm, "res": (ref != 0) & (ca["lab60"] != 0),
+                           "err": (ref != 0) & (ca["lab60"] != 0) & (ref != ca["lab60"])}
         bounds, k = {}, 0
         for fam, g in grids.items():
             bounds[fam] = (k, k + len(g)); k += len(g)
         point = analyse(bounds, err, resolved, ratio, dvalid, cell_ok, ref_ok)
         rng = np.random.default_rng(BOOT_SEED)
         diffs, boot_opt = [], {f: [] for f in grids}
+        h2_samples = []
         for b in range(n_boot):
             idx = rng.integers(0, len(x), len(x))
+            h2_samples.append(idx)
             res = analyse(bounds, err, resolved, ratio, dvalid, cell_ok, ref_ok, idx)
             rel = [f for f in grids if point[f]["reliable"]]
             if rel:
                 diffs.append(np.mean([res[f]["prediction_error"] - res[f]["baseline_error"] for f in rel]))
             for f in grids:
                 boot_opt[f].append(res[f]["optimum"]["primary"])
+        # H2: discrete gradient vs the best (oracle-tuned) reliable family member.
+        dg = ctrl["discrete-gradient"]
+        ok_cases = np.flatnonzero(cell_ok)
+
+        def h2_stat(idx):
+            e = err[ok_cases] if idx is None else err[ok_cases][:, idx]
+            r = resolved[ok_cases] if idx is None else resolved[ok_cases][:, idx]
+            best = float(np.min(e.sum(axis=1)/np.maximum(r.sum(axis=1), 1)))
+            de = dg["err"] if idx is None else dg["err"][idx]
+            dr = dg["res"] if idx is None else dg["res"][idx]
+            return float(de.sum()/max(dr.sum(), 1)) - best
+        h2_point = h2_stat(None) if len(ok_cases) else None
+        h2_boot = [h2_stat(h2_idx) for h2_idx in h2_samples]
+        h2_ci = np.percentile(h2_boot, [2.5, 97.5]).tolist() if h2_boot else None
+        if not dg["meta"]["reliable"] or h2_point is None:
+            h2_verdict = "inconclusive (discrete-gradient control not reliable)"
+        else:
+            h2_verdict = "passed" if h2_ci[1] < 0 else "failed"
+        base_i = {f: [i for i, (ff, r) in enumerate(all_cases) if ff == f and abs(r - BASELINE_RHO) < 1e-9]
+                  for f in grids}
+        h2_desc = {"discrete_gradient_mismatch": dg["meta"]["mismatch"],
+                   "BDF2_mismatch": ctrl["BDF2"]["meta"]["mismatch"],
+                   "family_rho_0.6_mismatch": {f: cells[i[0]]["mismatch"] for f, i in base_i.items() if i},
+                   "trapezoidal_rho_1_mismatch": next((c["mismatch"] for c in cells
+                                                       if c["family"] == "generalized-alpha" and c["rho"] == 1.0), None)}
         reliable = [f for f in grids if point[f]["reliable"]]
         hits = [f for f in reliable if not point[f]["crossing_missing_or_multiple"]
                 and point[f]["prediction_error"] <= 0.1]
@@ -226,8 +271,13 @@ def main():
                           "reliable_families": reliable, "hits_within_0.1": hits,
                           "mean_error_difference_vs_baseline_ci95": ci,
                           "gate_verdict": verdict if not smoke else f"SMOKE ONLY ({verdict})",
+                          "H2_discrete_gradient": {"mismatch_minus_best_reliable_family": h2_point,
+                                                   "ci95": h2_ci, "descriptive": h2_desc,
+                                                   "controls": {k: v["meta"] for k, v in ctrl.items()},
+                                                   "verdict": h2_verdict if not smoke else f"SMOKE ONLY ({h2_verdict})"},
                           "cells": cells}
-        print("Gate:", run["results"]["gate_verdict"], flush=True)
+        print("H1 gate:", run["results"]["gate_verdict"], flush=True)
+        print("H2:", run["results"]["H2_discrete_gradient"]["verdict"], flush=True)
     return run
 
 
