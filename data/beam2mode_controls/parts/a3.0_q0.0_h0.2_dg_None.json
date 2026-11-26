@@ -1,0 +1,12 @@
+{
+ "alpha": 3.0,
+ "q20": 0.0,
+ "h": 0.2,
+ "family": "discrete-gradient",
+ "kind": "dg",
+ "rho": null,
+ "mismatch": 0.08388888888888889,
+ "valid": 3600,
+ "excluded": 0,
+ "newton_failures": 0
+}

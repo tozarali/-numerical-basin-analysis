@@ -1,0 +1,11 @@
+{
+ "omega_h": 0.57,
+ "h": 0.023961472523065238,
+ "family": "discrete-gradient",
+ "kind": "dg",
+ "rho": null,
+ "mismatch": 0.085,
+ "valid": 400,
+ "excluded": 0,
+ "newton_failures": 0
+}

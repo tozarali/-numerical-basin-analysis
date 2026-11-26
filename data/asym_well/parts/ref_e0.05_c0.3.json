@@ -1,0 +1,9 @@
+{
+ "eps": 0.05,
+ "c": 0.3,
+ "step_check_changes": 0,
+ "unresolved": 0,
+ "fraction_right_well": 0.556884765625,
+ "saddle": -0.05012594698377256,
+ "barrier": 0.2512515703716365
+}

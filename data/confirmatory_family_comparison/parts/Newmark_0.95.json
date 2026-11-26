@@ -1,0 +1,10 @@
+{
+ "family": "Newmark",
+ "rho": 0.95,
+ "rho_measured": 0.9499999999999988,
+ "mismatch": 0.09033203125,
+ "unresolved": 0,
+ "time_check_changes": 0,
+ "D_median": 1.006422996520996,
+ "reliable": true
+}

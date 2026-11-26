@@ -1,0 +1,14 @@
+{
+ "c": 0.05,
+ "H": 0.6,
+ "h": 0.6,
+ "family": "rho-Bathe",
+ "kind": "bathe",
+ "rho": 0.6,
+ "implicit_solves_per_H": 2,
+ "mismatch": 0.173828125,
+ "valid": 4096,
+ "excluded": 0,
+ "newton_failures": 0,
+ "seconds": 0.5628757630000223
+}

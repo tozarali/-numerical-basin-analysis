@@ -1,0 +1,496 @@
+{
+ "name": "fe_dg_control",
+ "status": "exploratory",
+ "configuration": {
+  "n_el": 16,
+  "n": 20,
+  "omega_h": [
+   0.28,
+   0.57,
+   0.85
+  ],
+  "rho_step": 0.2,
+  "periods": 15
+ },
+ "environment": {
+  "python": "3.12.16",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "git_commit": "7e8540c49fbfa88bd4312e748bc2cea6c9f05b87+dirty"
+ },
+ "results": {
+  "reference": {
+   "reused_from": "data/fe_arch_basins/parts/ref.npz"
+  },
+  "cells": [
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.0,
+    "mismatch": 0.26,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.2,
+    "mismatch": 0.085,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.4,
+    "mismatch": 0.0475,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.6,
+    "mismatch": 0.0525,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.8,
+    "mismatch": 0.06,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 1.0,
+    "mismatch": 0.06,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.0,
+    "mismatch": 0.015,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.2,
+    "mismatch": 0.015,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.4,
+    "mismatch": 0.015,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.6,
+    "mismatch": 0.015,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.8,
+    "mismatch": 0.015,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 1.0,
+    "mismatch": 0.015,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.28,
+    "h": 0.011770547906067137,
+    "family": "discrete-gradient",
+    "kind": "dg",
+    "rho": null,
+    "mismatch": 0.01,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.0,
+    "mismatch": 0.495,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.2,
+    "mismatch": 0.37,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.4,
+    "mismatch": 0.13,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.6,
+    "mismatch": 0.125,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.8,
+    "mismatch": 0.1875,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 1.0,
+    "mismatch": 0.2075,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.0,
+    "mismatch": 0.07,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.2,
+    "mismatch": 0.07,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.4,
+    "mismatch": 0.065,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.6,
+    "mismatch": 0.06,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.8,
+    "mismatch": 0.065,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 1.0,
+    "mismatch": 0.065,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.57,
+    "h": 0.023961472523065238,
+    "family": "discrete-gradient",
+    "kind": "dg",
+    "rho": null,
+    "mismatch": 0.085,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.0,
+    "mismatch": 0.405,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.2,
+    "mismatch": 0.465,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.4,
+    "mismatch": 0.23,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.6,
+    "mismatch": 0.195,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 0.8,
+    "mismatch": 0.24,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "generalized-alpha",
+    "kind": "ga",
+    "rho": 1.0,
+    "mismatch": 0.2911392405063291,
+    "valid": 395,
+    "excluded": 5,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.0,
+    "mismatch": 0.11,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.2,
+    "mismatch": 0.095,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.4,
+    "mismatch": 0.08,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.6,
+    "mismatch": 0.0875,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 0.8,
+    "mismatch": 0.115,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "rho-Bathe",
+    "kind": "bathe",
+    "rho": 1.0,
+    "mismatch": 0.16,
+    "valid": 400,
+    "excluded": 0,
+    "newton_failures": 0
+   },
+   {
+    "omega_h": 0.85,
+    "h": 0.03573202042913238,
+    "family": "discrete-gradient",
+    "kind": "dg",
+    "rho": null,
+    "mismatch": 0.11044776119402985,
+    "valid": 335,
+    "excluded": 65,
+    "newton_failures": 0
+   }
+  ],
+  "summary": [
+   {
+    "omega_h": 0.28,
+    "trapezoid": 0.06,
+    "dg": 0.01,
+    "best_ga": 0.0475,
+    "best_ga_rho": 0.4,
+    "best_bathe": 0.015,
+    "best_bathe_rho": 0.0,
+    "bathe_rho0": 0.015,
+    "ga_rho0": 0.26
+   },
+   {
+    "omega_h": 0.57,
+    "trapezoid": 0.2075,
+    "dg": 0.085,
+    "best_ga": 0.125,
+    "best_ga_rho": 0.6,
+    "best_bathe": 0.06,
+    "best_bathe_rho": 0.6,
+    "bathe_rho0": 0.07,
+    "ga_rho0": 0.495
+   },
+   {
+    "omega_h": 0.85,
+    "trapezoid": 0.2911392405063291,
+    "dg": 0.11044776119402985,
+    "best_ga": 0.195,
+    "best_ga_rho": 0.6,
+    "best_bathe": 0.08,
+    "best_bathe_rho": 0.4,
+    "bathe_rho0": 0.11,
+    "ga_rho0": 0.405
+   }
+  ]
+ },
+ "out_dir": "data/fe_dg_control",
+ "outcome": "completed",
+ "runtime_seconds": 2885.808
+}

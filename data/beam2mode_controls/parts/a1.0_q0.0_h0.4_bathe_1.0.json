@@ -1,0 +1,12 @@
+{
+ "alpha": 1.0,
+ "q20": 0.0,
+ "h": 0.4,
+ "family": "rho-Bathe",
+ "kind": "bathe",
+ "rho": 1.0,
+ "mismatch": 0.04833333333333333,
+ "valid": 3600,
+ "excluded": 0,
+ "newton_failures": 0
+}

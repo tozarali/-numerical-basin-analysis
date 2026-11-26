@@ -1,0 +1,52 @@
+{
+ "name": "fe_crosscheck_openseespy",
+ "status": "exploratory",
+ "configuration": {
+  "n_el": 16,
+  "factor": 1.6
+ },
+ "environment": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.44-fc-v819-x86_64-with-glibc2.39",
+  "git_commit": null
+ },
+ "results": {
+  "status": "done",
+  "inhouse": {
+   "midspan_amplitude": 0.030686443805036677,
+   "omega_buckled": [
+    23.7881874518355,
+    44.70580944924292,
+    106.6015729077127
+   ],
+   "omega_flat_at_shortening": [
+    17.566227248789126,
+    30.822956451740744,
+    93.3352287828061
+   ]
+  },
+  "opensees": {
+   "converged": true,
+   "midspan_amplitude": -0.030686443804559184,
+   "midspan_amplitude_with_imperfection_load": -0.030704675949529036,
+   "omega_buckled": [
+    23.78818745126932,
+    44.70580944891223,
+    106.6015729073017
+   ],
+   "axial_load_factor_final": -40.19568925603654
+  },
+  "euler_load": 39.47841760435743,
+  "euler_shortening": 0.0039478417604357436,
+  "applied_shortening": 0.00631654681669719,
+  "relative_differences": {
+   "midspan_amplitude": 1.5560390384013783e-11,
+   "omega1": 2.3800962947769016e-11
+  }
+ },
+ "out_dir": "data/fe_crosscheck_openseespy",
+ "outcome": "completed",
+ "runtime_seconds": 0.118
+}

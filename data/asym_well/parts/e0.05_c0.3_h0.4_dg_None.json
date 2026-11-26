@@ -1,0 +1,12 @@
+{
+ "eps": 0.05,
+ "c": 0.3,
+ "h": 0.4,
+ "family": "discrete-gradient",
+ "kind": "dg",
+ "rho": null,
+ "mismatch": 0.03125,
+ "valid": 4096,
+ "excluded": 0,
+ "newton_failures": 0
+}

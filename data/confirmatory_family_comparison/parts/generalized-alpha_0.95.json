@@ -1,0 +1,10 @@
+{
+ "family": "generalized-alpha",
+ "rho": 0.95,
+ "rho_measured": 0.95,
+ "mismatch": 0.16583251953125,
+ "unresolved": 0,
+ "time_check_changes": 0,
+ "D_median": 0.9583141803741455,
+ "reliable": true
+}

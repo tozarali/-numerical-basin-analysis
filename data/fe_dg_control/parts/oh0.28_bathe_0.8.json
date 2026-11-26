@@ -1,0 +1,11 @@
+{
+ "omega_h": 0.28,
+ "h": 0.011770547906067137,
+ "family": "rho-Bathe",
+ "kind": "bathe",
+ "rho": 0.8,
+ "mismatch": 0.015,
+ "valid": 400,
+ "excluded": 0,
+ "newton_failures": 0
+}

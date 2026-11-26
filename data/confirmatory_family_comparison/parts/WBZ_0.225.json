@@ -1,0 +1,10 @@
+{
+ "family": "WBZ",
+ "rho": 0.225,
+ "rho_measured": 0.22500000000000003,
+ "mismatch": 0.321319580078125,
+ "unresolved": 0,
+ "time_check_changes": 0,
+ "D_median": 1.0984439849853516,
+ "reliable": false
+}

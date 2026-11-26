@@ -1,0 +1,69 @@
+{
+ "configuration": {
+  "model": "x'' + c*x' - x + x^3 = 0",
+  "damping": 0.15,
+  "h": 0.4,
+  "energy_end": 4.0,
+  "basin_end": 60.0,
+  "grid_n": 100,
+  "reference_h": 0.005,
+  "rho_ranges": {
+   "generalized-alpha": [
+    0.0,
+    1.0
+   ],
+   "HHT": [
+    0.55,
+    1.0
+   ],
+   "WBZ": [
+    0.05,
+    1.0
+   ],
+   "Newmark": [
+    0.6,
+    1.0
+   ]
+  },
+  "same_energy_subset_for_D_and_mismatch": true
+ },
+ "families": [
+  {
+   "family": "generalized-alpha",
+   "D_crossing_rho": 0.4270137843188836,
+   "basin_best_rho": 0.5,
+   "basin_minimum": 0.11626984126984127,
+   "spearman_mismatch_abs_D_error": 0.9766233766233766,
+   "spearman_mismatch_one_minus_rho": 0.3675324675324675
+  },
+  {
+   "family": "HHT",
+   "D_crossing_rho": null,
+   "basin_best_rho": 0.55,
+   "basin_minimum": 0.11587301587301588,
+   "spearman_mismatch_abs_D_error": 0.996965091635306,
+   "spearman_mismatch_one_minus_rho": -0.996965091635306
+  },
+  {
+   "family": "WBZ",
+   "D_crossing_rho": 0.6721044632319356,
+   "basin_best_rho": 0.75,
+   "basin_minimum": 0.1111111111111111,
+   "spearman_mismatch_abs_D_error": 0.9714285714285714,
+   "spearman_mismatch_one_minus_rho": 0.813533834586466
+  },
+  {
+   "family": "Newmark",
+   "D_crossing_rho": 0.9566563370636115,
+   "basin_best_rho": 0.95,
+   "basin_minimum": 0.0880952380952381,
+   "spearman_mismatch_abs_D_error": 1.0,
+   "spearman_mismatch_one_minus_rho": 0.9833333333333333
+  }
+ ],
+ "pooled": {
+  "spearman_mismatch_abs_D_error": 0.9773640123338166,
+  "spearman_mismatch_one_minus_rho": 0.3211853010126989
+ },
+ "runtime_seconds": 44.781
+}

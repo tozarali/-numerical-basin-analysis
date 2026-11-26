@@ -1,0 +1,15 @@
+{
+ "alpha": 1.0,
+ "q20": 0.3,
+ "H": 0.6,
+ "h": 0.3,
+ "family": "generalized-alpha",
+ "kind": "ga",
+ "rho": 0.8,
+ "implicit_solves_per_H": 2,
+ "mismatch": 0.14444444444444443,
+ "valid": 3600,
+ "excluded": 0,
+ "newton_failures": 0,
+ "seconds": 1.3681756980000728
+}
